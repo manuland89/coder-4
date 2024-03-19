@@ -17,6 +17,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- finaliza boot 5.1 -->
+     <!-- inicia animacion -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+     <!-- finaliza animacion -->
+ 
     
     <link rel="stylesheet" href="./estilos.css" />
 
@@ -25,7 +31,8 @@
 
   <body>
     <!-- navbar incia -->
-    <nav class="navbar navbar-expand-sm navbar-dark d-flex">
+    <nav class="navbar navbar-expand-lg navbar-dark d-flex" data-aos="fade-right">
+    
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">
           <img src="./multimedia/logo.jpg" alt="" />Lau Chipa</a
@@ -34,7 +41,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="./index.html">Home</a>
             </li>
@@ -57,7 +64,7 @@
     </nav>
   <!-- navbar fin -->
     <!-- jumbotrom inicia -->
-    <div class="p-5  jumbotron">
+    <div class="p-5  jumbotron" data-aos="zoom-in">
       <!-- <h1>Tentate</h1> -->
       <h1>Todos nuestros productos son realizados con la mejor materia prima desde cero...</h1>
       <!-- <p> -->
@@ -81,12 +88,13 @@
     </div>
 
     <h2>Elaboraciones propias</h2>
-    <div class="container-fluid">
+    <div class=container-fluid data-aos="flip-left">
+    
       <div class="row">
         <div class="col-sm-4 articulo1">
           <h4>Chipa</h4>
           <i class="fa-solid fa-check"></i><br>
-          <a href="./Producto/chipa.html"> <img src="./multimedia/chipa1.jpg" width="auto" height="150px"></a>
+          <a href="./Producto/chipa.html"> <img src="./multimedia/chipa6.jpg" width="auto" height="150px"></a>
         </div>
         <div class="col-sm-4 articulo2">
           <h4>Tortas</h4>
@@ -115,7 +123,11 @@
           </a>
           
     </footer>
-
+ <!-- script animacion inicia -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
