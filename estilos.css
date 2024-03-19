@@ -10,7 +10,7 @@
 
 .navbar {
   background-color: rgb(6, 6, 122);
-  height: 170px;
+  min-height: 170px;
 }
 
 .navbar-brand {
@@ -58,7 +58,7 @@
 .jumbotron h1 {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
-  color: rgb(7, 7, 44);
+  color: rgb(6, 6, 122);
   font-weight: bold;
 }
 .jumbotron p {

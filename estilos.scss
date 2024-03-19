@@ -11,9 +11,14 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Roboto:wght@300&display=swap');
 
+    
+    $micolor1:rgb(6, 6, 122);
+    $micolor2:black;
+    $font1:"Roboto", sans-serif;
+    
     .navbar {
-    background-color: rgb(6, 6, 122);
-    height: 170px;
+    background-color: $micolor1;
+    min-height: 170px;
     } 
 
     .navbar-brand {
@@ -22,7 +27,7 @@
     font-size: 30px;
 
     :hover {
-        color: black !important;
+        color: $micolor2 !important;
     }
 
     img {
@@ -58,18 +63,18 @@
     background-size: cover;
     background-position: center;
     font-weight: bold;
-    font-family: "Roboto", sans-serif;
+    font-family: $font1;
     margin-bottom: 0px !important;
 
     h1 {
         font-family: "Roboto", sans-serif;
         font-size: 30px;
-        color: rgb(7, 7, 44);
+        color: $micolor1;
         font-weight: bold;
     } 
     
     p {
-        font-family: "Roboto", sans-serif;
+        font-family: "Roboto", sans-serif;;
         font-size: 15px;
         color: rgb(2, 2, 48);
         font-weight: bold;
@@ -80,7 +85,7 @@
 
     h2 {
     text-align: center;
-    background-color: rgb(6, 6, 122);
+    background-color: $micolor1;
     padding: 20px;
     font-weight: bold;
     text-shadow: 0 0 5px;
