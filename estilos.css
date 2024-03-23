@@ -8,41 +8,42 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.navbar {
+.navbar{
   background-color: rgb(6, 6, 122);
-  min-height: 170px;
-}
 
-.navbar-brand {
-  color: white !important;
+  height: 170px;
+}
+.navbar-brand{
+  color: white!important;
   text-shadow: 0 0 5px;
   font-size: 30px;
 }
-.navbar-brand :hover {
+.navbar-brand:hover{
   color: black !important;
 }
-.navbar-brand img {
+.navbar-brand img{
   height: 80px;
   margin: 15px;
-}
+  
 
-.collapse navbar-collapse {
+}
+.collapse navbar-collapse{
   display: flex;
   justify-content: center;
 }
-
-.navbar-collapse {
-  /* display: flex !important; */
+.navbar-collapse{
+  
+/* display: flex !important; */
   /* justify-content:flex-end !important; */
   padding: 30px;
+  
 }
-
-.nav-link {
+.nav-link{
   color: white !important;
   text-shadow: 0 0 5px;
   font-size: 20px;
 }
-.nav-link :hover {
+.nav-link:hover{
   color: black !important;
 }
 
@@ -322,3 +323,32 @@ footer a {
 */
 
 /*# sourceMappingURL=estilos.css.map */
+
+.nprecio{   width: 100%;
+    /* height: auto; */
+    background-color: rgba(44, 42, 156, 0.432);
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(1, 500 px);
+  }
+  .npr2{
+    
+      border: 5px solid  #000;
+      background-size: cover;
+      background-position: center;
+      margin: 0px;
+    }
+  
+  .npr1{
+    background-image: url(./multimedia/precios-2024-_1_.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 450PX;
+overflow: hidden;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+.nprecio p{
+color: black;
+margin-top: 100%;
+}
