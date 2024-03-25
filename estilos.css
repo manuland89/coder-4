@@ -390,7 +390,7 @@ justify-content: center !important;
 }
 @media only screen and (max-width: 480px){ 
   .d-item{
-    padding-left: 60px !important;
+    padding-left: 100px !important;
     /* padding-right: 50px !important; */
     
   }
