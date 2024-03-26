@@ -392,11 +392,12 @@ justify-content: center !important;
   .d-item{
     padding-left: 100px !important;
     /* padding-right: 50px !important; */
+    padding-top: 30px;
     
   }
 .d-img{
-  height: 300px !important;
-  width: auto;
+  height: 250px !important;
+  width: 100%;
 }
 }
   @media only screen and (min-width: 768px) and (max-width:1024px) {
